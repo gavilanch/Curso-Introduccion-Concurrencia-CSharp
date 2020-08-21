@@ -62,53 +62,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Codigo\Modulo 2\Cancelando_Bucles.cs" />
-    <Compile Include="Codigo\Modulo 2\Cancelando_Tareas.cs" />
-    <Compile Include="Codigo\Modulo 2\Cancelando_Tareas_No_Cancelables.cs" />
-    <Compile Include="Codigo\Modulo 2\Cancelando_Timeout.cs" />
-    <Compile Include="Codigo\Modulo 2\ConfigureAwait.cs" />
-    <Compile Include="Codigo\Modulo 2\Creando_Tareas_Terminadas.cs" />
-    <Compile Include="Codigo\Modulo 2\Flujo_de_Tareas.cs" />
-    <Compile Include="Codigo\Modulo 2\Reintento.cs" />
-    <Compile Include="Codigo\Modulo 2\Reportando_Progreso.cs" />
-    <Compile Include="Codigo\Modulo 2\Reportando_Progreso_Tiempo.cs" />
-    <Compile Include="Codigo\Modulo 2\RespuestaTarjeta.cs" />
-    <Compile Include="Codigo\Modulo 2\Semaforo.cs" />
-    <Compile Include="Codigo\Modulo 2\Solo_Uno.cs" />
-    <Compile Include="Codigo\Modulo 2\TaskCompletionSource_Ejemplo.cs" />
-    <Compile Include="Codigo\Modulo 2\Task_No_Exitosa.cs" />
-    <Compile Include="Codigo\Modulo 2\Task_Run.cs" />
-    <Compile Include="Codigo\Modulo 2\Task_WhenAll.cs" />
-    <Compile Include="Codigo\Modulo 2\Task_Y_TaskDeT.cs" />
-    <Compile Include="Codigo\Modulo 2\UI_Que_No_Se_Congela.cs" />
-    <Compile Include="Codigo\Modulo 3\Cancelando_Stream_Asincrono.cs" />
-    <Compile Include="Codigo\Modulo 3\Repaso_IEnumerable.cs" />
-    <Compile Include="Codigo\Modulo 3\Stream_Asincrono.cs" />
-    <Compile Include="Codigo\Modulo 4\Sincrono_Dentro_De_Asincrono.cs" />
-    <Compile Include="Codigo\Modulo 4\StartNew.cs" />
-    <Compile Include="Codigo\Modulo 5\Aggregate_LINQ.cs" />
-    <Compile Include="Codigo\Modulo 5\Ejemplo_Interlocked.cs" />
-    <Compile Include="Codigo\Modulo 5\Ejemplo_Lock.cs" />
-    <Compile Include="Codigo\Modulo 5\Intro_LINQ.cs" />
-    <Compile Include="Codigo\Modulo 5\Intro_Parallel_For.cs" />
-    <Compile Include="Codigo\Modulo 5\LINQ_ForAll.cs" />
-    <Compile Include="Codigo\Modulo 5\Maximo_Grado_Paralelismo.cs" />
-    <Compile Include="Codigo\Modulo 5\Parallel_ForEach.cs" />
-    <Compile Include="Codigo\Modulo 5\Parallel_For_Matrices.cs" />
-    <Compile Include="Codigo\Modulo 5\Parallel_Invoke.cs" />
-    <Compile Include="Codigo\Modulo 5\TaskWhenAll.cs" />
-    <Compile Include="Codigo\Modulo 5\Utils.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Codigo\Imagen.cs" />
-    <Compile Include="Codigo\Matrices.cs" />
+    <Compile Include="Imagen.cs" />
+    <Compile Include="Matrices.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Codigo\RespuestaTarjeta.cs" />
+    <Compile Include="RespuestaTarjeta.cs" />
+    <Compile Include="TaskExtensionMethods.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
