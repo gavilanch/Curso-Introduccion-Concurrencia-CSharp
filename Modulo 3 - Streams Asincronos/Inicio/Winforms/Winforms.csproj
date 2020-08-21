@@ -62,25 +62,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Codigo\Modulo 2\Cancelando_Bucles.cs" />
-    <Compile Include="Codigo\Modulo 2\Cancelando_Tareas.cs" />
-    <Compile Include="Codigo\Modulo 2\Cancelando_Tareas_No_Cancelables.cs" />
-    <Compile Include="Codigo\Modulo 2\Cancelando_Timeout.cs" />
-    <Compile Include="Codigo\Modulo 2\ConfigureAwait.cs" />
-    <Compile Include="Codigo\Modulo 2\Creando_Tareas_Terminadas.cs" />
-    <Compile Include="Codigo\Modulo 2\Flujo_de_Tareas.cs" />
-    <Compile Include="Codigo\Modulo 2\Reintento.cs" />
-    <Compile Include="Codigo\Modulo 2\Reportando_Progreso.cs" />
-    <Compile Include="Codigo\Modulo 2\Reportando_Progreso_Tiempo.cs" />
-    <Compile Include="Codigo\Modulo 2\RespuestaTarjeta.cs" />
-    <Compile Include="Codigo\Modulo 2\Semaforo.cs" />
-    <Compile Include="Codigo\Modulo 2\Solo_Uno.cs" />
-    <Compile Include="Codigo\Modulo 2\TaskCompletionSource_Ejemplo.cs" />
-    <Compile Include="Codigo\Modulo 2\Task_No_Exitosa.cs" />
-    <Compile Include="Codigo\Modulo 2\Task_Run.cs" />
-    <Compile Include="Codigo\Modulo 2\Task_WhenAll.cs" />
-    <Compile Include="Codigo\Modulo 2\Task_Y_TaskDeT.cs" />
-    <Compile Include="Codigo\Modulo 2\UI_Que_No_Se_Congela.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
